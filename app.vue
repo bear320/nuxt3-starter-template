@@ -1,12 +1,16 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <router-view></router-view>
+  </NuxtLayout>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const appStore = useAppStore();
+</script>
 
 <style lang="scss">
+@use '~/assets/scss/main.scss';
+
 body {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8);

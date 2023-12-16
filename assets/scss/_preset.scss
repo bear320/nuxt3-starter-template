@@ -1,0 +1,14 @@
+:root {
+  --header-height: 60px;
+  --line-height: 1.5;
+}
+
+body {
+  line-height: var(--line-height);
+}
+
+.container {
+  margin: auto;
+  padding: 1rem;
+  width: clamp(360px, 100%, 1280px);
+}

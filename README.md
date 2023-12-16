@@ -1,75 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 Starter Template
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Features
+* ⛰️ [Nuxt3](https://nuxt.com/) | The Intuitive Vue Framework.
+* ⚡ [Vite](https://vitejs.dev/) | Next generation frontend tooling.
+* 👨🏻‍💻 [TypeScript](https://www.typescriptlang.org/) | JavaScript With Syntax For Types.
+* 📏 [ESlint](https://eslint.org/) | Find and fix problems in your JavaScript code.
+* 💅 [Prettier](https://prettier.io/) | Opinionated Code Formatter.
+* 🍍 [Pinia](https://pinia.vuejs.org/) | The intuitive store for Vue.js.
+* 💾 [pinia-plugin-persistedstate](https://prazdevs.github.io/pinia-plugin-persistedstate/) | Configurable persistence and rehydration of Pinia stores.
+* 🎨 [SASS](https://sass-lang.com/) | Syntactically Awesome Style Sheets.
+* 🗜️ [VueUse](https://vueuse.org/) | Collection of Essential Vue Composition Utilities.
+* 🌗 [Nuxt Color Mode](https://color-mode.nuxtjs.org/) | Dark and Light mode with auto detection made easy with Nuxt.
+* 🧪 [Vitest](https://vitest.dev/) | Next Generation testing framework.
+* 📲 [Vite PWA](https://vite-pwa-org.netlify.app/) | Zero-config PWA for Vite.
 
-## Setup
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
