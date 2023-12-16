@@ -10,9 +10,6 @@
 
 <style lang="scss" scoped>
 .layout {
-  // min-height: 100dvh;
-  background-color: pink;
-
   .view {
     margin-top: var(--header-height);
     min-height: calc(100dvh - var(--header-height));
