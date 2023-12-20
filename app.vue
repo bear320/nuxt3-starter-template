@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout>
-    <router-view></router-view>
+    <NuxtPage></NuxtPage>
   </NuxtLayout>
 </template>
 
@@ -9,7 +9,7 @@ const appStore = useAppStore();
 </script>
 
 <style lang="scss">
-@use '~/assets/scss/main.scss';
+@import 'assets/scss/main.scss';
 
 body {
   background-color: #fff;

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>Nuxt3 Starter Template</h2>
+    <h2>Nuxt3 Starter Template <Icon name="logos:nuxt-icon" /></h2>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium numquam explicabo,
       perspiciatis, placeat quo impedit minus aperiam nam eum, voluptatem vitae ipsam aut omnis?
@@ -14,6 +14,13 @@
     </p>
   </div>
 </template>
+
+<script lang="ts" setup>
+useHead({
+  title: 'My App',
+  meta: [{ name: 'description', content: 'My amazing site.' }]
+});
+</script>
 
 <style lang="scss" scoped>
 .container {

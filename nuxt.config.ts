@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@pinia-plugin-persistedstate/nuxt',
     '@vueuse/nuxt',
     '@nuxtjs/color-mode',
+    'nuxt-icon',
     '@vite-pwa/nuxt'
   ],
   typescript: {
@@ -13,5 +14,14 @@ export default defineNuxtConfig({
   },
   pwa: {
     /* PWA options */
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "assets/scss/mixin.scss";'
+        }
+      }
+    }
   }
 });
